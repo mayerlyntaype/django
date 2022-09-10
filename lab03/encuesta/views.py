@@ -27,4 +27,4 @@ def votar(request,pregunta_id):
     context = {
         'pregunta':pregunta
     }
-    return render(request,'encuesta/resultados.html',context)
+    return render(request,'encuesta/resultado.html',context)
